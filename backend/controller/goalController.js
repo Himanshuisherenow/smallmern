@@ -1,3 +1,6 @@
+
+const asynchandler = require('express-async-handler');
+
 const getGoals=asynchandler(async(req,res)=>{
 
     res.status(200).json({mes:"GET GOALS"});

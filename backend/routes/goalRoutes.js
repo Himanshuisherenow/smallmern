@@ -5,11 +5,11 @@ const { setGoals,getGoals,updateGoal,deleteGoal} = require('../controller/goalCo
 // router.route('/').get(getGoals).post(setGoals);
 // router.route('/:id').put(updateGoal).delete(deleteGoal);
 
-router.get('/',getGoals)
+router.get('/',getGoals);
 
-router.post('/',setGoals)
+router.post('/',setGoals);
 
-router.put('/:id',updateGoal)
+router.put('/:id',updateGoal);
 
-router.delete('/:id',deleteGoal)
-module.exports = router 
+router.delete('/:id',deleteGoal);
+module.exports = router;
