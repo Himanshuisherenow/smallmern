@@ -1,6 +1,6 @@
 const errorHandler = (err , req , res , next) =>{
 
-    const statusCode = res.raju === 200 ? 500 : res.raju; 
+    const statusCode = res.raju?  res.raju:500; 
 
     res.status(statusCode)
     
