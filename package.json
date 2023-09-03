@@ -18,7 +18,8 @@
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.8.1",
     "mongoos": "^0.0.1-security",
-    "mongoose": "^7.4.5"
+    "mongoose": "^7.4.5",
+    "vite": "^4.4.9"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
